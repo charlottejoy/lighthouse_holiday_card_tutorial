@@ -16,8 +16,7 @@
 	<body>
 
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
-		<script src="js/main.js"></script>
+	
 
 		<h1>Build Your Own Holiday Cards</h1>
 <div class="row form-container">
@@ -25,20 +24,21 @@
 <form>
 	<label for="title">Card Title:</label>
 	 <input type="text" id="title" name="title">
-    <label for="from">From:</label>
-    <input type="text" id="from" name="from">
-    </form>
-</div>
-<div class="one-half column">
-	<form>
-		<label for="image">Picture:</label>
+    	<label for="image">Picture:</label>
     <select id="image">
         <option value="./img/LHL-Christmas-Photo.jpg">Human Family</option>
         <option value="./img/our-family.jpg">Dog Family</option>
     </select>
+    </form>
+</div>
+<div class="one-half column">
+	<form>
+	
     <label for="msg">Message:</label>
     <textarea id="msg" name="message"></textarea>
-    <button id="save-button">Save Card</button>
+    <label for="from">From:</label>
+    <input type="text" id="from" name="from">
+     <button id="save-button">Save Card</button>
 </form>
 </div>
 </div>
@@ -57,5 +57,8 @@
         <img src="./img/LHL-Christmas-Photo.jpg" id="card-image">
     </div>
 </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+        <script src="js/main.js"></script>
 	</body>
 </html>
